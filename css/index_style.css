@@ -1,0 +1,790 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/full-back.svg)
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(../img/slider-img.jpg);
+    position: relative;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 288px;
+}
+
+.trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content-h2 {
+    color: #212121;
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.content-discription {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.navigation {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.product-line {
+    position: relative;
+    width: 1366px;
+    height: 609px;
+}
+
+.tabs {
+    margin-top: 120px;
+    margin-bottom: 72px;
+    margin-left: 98px;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.tab-menu {
+    border-bottom: 1px solid #6c6c6c;
+    float: left;
+}
+
+.tab-new {
+    /* Style for "New" */
+    width: 80px;
+    height: 25px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 11px;
+}
+
+.tab-new:hover {
+    color: #212121;
+}
+
+.tab-active {
+    /* Style for "Featured" */
+    width: 158px;
+    height: 27px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 9px;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-explore {
+    position: absolute;
+    top: 20px;
+    right: 118px;
+    width: 200px;
+    height: 100px;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.button-explore:hover {
+    color: #6c6c6c;
+}
+
+.explorer-arrow {
+    /* Style for "arrow" */
+    margin-left: 12px;
+    width: 9px;
+    height: 12px;
+}
+
+.product-item {
+    float: left
+}
+
+.product {
+    width: 270px;
+    height: 270px;
+    margin-left: 20px;
+}
+
+.product-item-active {
+    position: relative;
+}
+
+.prod {
+    opacity: 0.1;
+    border: 1px solid #9c9c9c;
+}
+
+.button-2 {
+    color: #212121;
+    font-size: 20px;
+    font-weight: 700;
+    width: 48px;
+    height: 48px;
+    line-height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    left: 111px;
+    top: 62px;
+}
+
+.pic-active-text {
+    position: absolute;
+    left: 63px;
+    top: 129px;
+    /* Style for "Fishnet Ch" */
+    width: 160px;
+    height: 17px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+}
+
+.pic-active-discription {
+    position: absolute;
+    left: 32px;
+    top: 169px;
+    width: 211px;
+    height: 33px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+    text-align: center;
+}
+
+.arrow {
+    margin-top: 14px;
+    margin-left: 18px;
+}
+
+.split-div {
+    width: 1366px;
+    height: 683px;
+}
+
+.first-pic {
+    height: 683px;
+    width: 683px;
+    background-image: url(../img/promo-img1.jpg);
+    float: left;
+}
+
+.second-pic {
+    margin-left: 683px;
+    height: 683px;
+    width: 683px;
+    background-image: url(../img/promo-img.jpg)
+}
+
+.exclusive {
+    /* Style for "exclusive" */
+    padding-top: 228px;
+    margin-left: 51px;
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    letter-spacing: 1.8px;
+}
+
+.split-content-h2 {
+    /* Style for "Fishnet Ch" */
+    margin-left: 52px;
+    width: 260px;
+    height: 28px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.split-content-discription {
+    /* Style for "Seat and b" */
+    margin-top: 24px;
+    margin-left: 50px;
+    width: 390px;
+    height: 36px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+}
+
+.split-button {
+    margin-top: 34px;
+    margin-left: 50px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 212px;
+    height: 46px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 23px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.trending-products {
+    height: 1108px;
+    position: relative;
+}
+
+.trending-prod {
+    padding-top: 118px;
+}
+
+.trending-button-explore {
+    position: absolute;
+    top: 137px;
+    right: 118px;
+    width: 200px;
+    height: 100px;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.trending-button-explore:hover {
+    color: #6c6c6c;
+}
+
+.products-div {
+    margin-top: 64px;
+}
+
+td {
+    border-right: 30px solid #ffffff;
+    border-bottom: 30px solid #ffffff;
+}
+
+td:hover {
+    opacity: 0.4
+}
+
+.hot-div {
+    height: 1366px;
+    height: 800px;
+    background-image: url(../img/slider.jpg);
+    position: relative;
+}
+
+.hot-deal {
+    /* Style for "Hot deal" */
+    padding-top: 287px;
+    margin-left: 1px;
+    color: #e53935;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "Hot deal" */
+    color: #e53935;
+    letter-spacing: 1.8px;
+}
+
+.hot-content-h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.hot-content-discription {
+    /* Style for "Seat and b" */
+    margin-top: 10px;
+    width: 480px;
+    height: 38px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hot-button {
+    margin-top: 32px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 212px;
+    height: 46px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 23px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.just-table {
+    height: 810px;
+    width: 1366px;
+}
+
+.table {
+    padding-top: 120px;
+}
+
+.table-image {
+    width: 570px;
+    height: 550px;
+    background-image: url(../img/product-1-lg.jpg)
+}
+
+.table-image:hover {
+    opacity: 1
+}
+
+.table-exclusive {
+    /* Style for "exclusive" */
+    margin-left: 31px;
+    color: #1e88e5;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+}
+
+.table-content-h2 {
+    /* Style for "Fishnet Ch" */
+    /* Style for "Fishnet Ch" */
+    margin-top: 10px;
+    margin-left: 31px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.table-content-discription {
+    /* Style for "Seat and b" */
+    margin-top: 17px;
+    margin-left: 31px;
+    width: 370px;
+    height: 38px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.table-button {
+    margin-top: 32px;
+    margin-left: 30px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 212px;
+    height: 46px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 23px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.app-links {
+    /* Style for "back-img" */
+    width: 1366px;
+    height: 516px;
+    background-image: url(../img/app-back-img.jpg);
+}
+
+.app-h4 {
+    /* Style for "mobile app" */
+    padding-top: 125px;
+    margin-left: 99px;
+    color: #6c6c6c;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "mobile app" */
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+}
+
+.app-header {
+    /* Style for "Find. Foll" */
+    margin-top: px;
+    margin-left: 106px;
+    width: 500px;
+    height: 116px;
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 200;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.app-tagline {
+    /* Style for "Save your" */
+    margin-top: 45px;
+    margin-left: 99px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.links {
+    margin-top: 33px;
+    margin-left: 99px;
+}
+
+.app-link {
+    margin-right: 10px;
+}
+
+.app-link:hover {
+    opacity: 0.8
+}
+
+.footer {
+    /* Style for "footer-bac" */
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+.footer-top {
+    padding-top: 120px;
+}
+
+.contact {
+    height: 138px;
+    float: left;
+}
+
+.contact-us {
+    /* Style for "Contact Us" */
+    margin-left: 99px;
+    width: 140px;
+    height: 13px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    letter-spacing: 1.8px;
+}
+
+.adress {
+    /* Style for "132A Bridg" */
+    margin-left: 97px;
+    margin-top: 25px;
+    width: 230px;
+    height: 102px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.information {
+    width: 520px;
+    height: 140px;
+    float: left;
+}
+
+.information-header {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+    margin-left: 81px;
+}
+
+.some-links {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.first-some-links {
+    float: left
+}
+
+.column {
+    /* Style for "Sales term" */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.footer-link {
+    color: #212121;
+}
+
+.footer-link:hover {
+    opacity: 0.7
+}
+
+.first-column {
+    margin-right: 103px;
+}
+
+.touch {
+    margin-left: 899px;
+    margin-right: 100px;
+    height: 132px;
+    position: relative;
+}
+
+.touch-header {
+    /* Style for "Let’s Stay" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "L, et’s St" */
+    letter-spacing: 1.8px;
+}
+
+.subscribe-text {
+    /* Style for "Suscribe t" */
+    margin-top: 16px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.email {
+    /* Style for "input" */
+    margin-top: 26px;
+    width: 365px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    /* Style for "your email" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.send {
+    position: absolute;
+    left: 333px;
+    top: 245px;
+}
+
+.copyright {
+    margin-top: 75px;
+}
+
+.copyright-text {
+    margin-top: 5px;
+    margin-right: 158px;
+    margin-left: 98px;
+    float: left;
+    /* Style for "© Copyrigh" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+}
+
+.social {
+    float: left;
+    margin-right: 74px;
+}
+
+.privacy-text {
+    margin-right: 97px;
+    /* Style for "Terms & Co" */
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "T, erms &" */
+    letter-spacing: 0.6px;
+}
+
+.footer-privacy-link {
+    color: #6c6c6c;
+}
+
+.footer-privacy-link:hover {
+    opacity: 0.7
+}
