@@ -49,7 +49,7 @@ body {
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 13px;
+    padding: 10px 20px;
 }
 
 .menu-link:hover {
@@ -58,11 +58,10 @@ body {
 
 .menu-link-active {
     color: #212121;
-    font-weight: 700;
-    letter-spacing: 1.4px;
     border-bottom: 3px solid #212121;
     text-decoration: none;
 }
+
 
 .content {
     margin-top: 288px;
@@ -107,6 +106,10 @@ body {
     display: inline-block;
     text-decoration: none;
     letter-spacing: 3.6px;
+}
+.butt-hov:hover {
+    box-shadow: 0 4px 7px 2px rgba(33, 33, 33, 0.55);
+
 }
 
 .navigation {
@@ -730,7 +733,7 @@ td:hover {
     height: 48px;
     border: 1px solid #d9dee1;
     background-color: #ffffff;
-    /* Style for "your email" */
+    padding-left: 15px; /* Style for "your email" */
     color: #6c6c6c;
     font-family: Montserrat;
     font-size: 14px;

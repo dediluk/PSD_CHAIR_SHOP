@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.container {
+    min-height:  100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/full-back.svg)
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 360px;
+    position: relative;
+    background-image: url(../img/hero-back.svg);
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+}
+
+.contact {
+    /* Style for "Contact Us" */
+    /* Style for "Contact Us" */
+    width: 356px;
+    height: 43px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 72px;
+    margin-top: 140px;
+}
+
+.adress_div {
+    float: left;
+    height: 370px;
+    width: 370px;
+    border: 1px solid #9c9c9c;
+    margin-top: 71px;
+    margin-bottom: 122px;
+}
+
+.first_adress, .second_adress {
+    margin-right: 27px;
+}
+
+.geo {
+    margin-left: 166px;
+    margin-top: 48px;
+}
+
+.city {
+    /* Style for "California" */
+    width: 137px;
+    height: 16px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+    margin-left: 117px;
+    margin-top: 34px;
+}
+
+.information {
+    margin-left: 49px;
+    margin-top: 23px;
+    text-align: center;
+    height: 138px;
+    width: 271px;
+}
+.text {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.phone {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.email-adress {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.adress-text {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clr {
+    height: 384px;
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    list-style-type: none
+}
+
+.footer {
+    background-color: #f7f7f7;
+    width: 1366px;
+    height: 384px;
+    margin: -384px auto;
+}
+
+.footer-top {
+    padding-top: 120px;
+}
+
+.contacts {
+    height: 138px;
+    float: left;
+}
+
+.contact-us {
+    /* Style for "Contact Us" */
+    margin-left: 99px;
+    width: 140px;
+    height: 13px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    letter-spacing: 1.8px;
+}
+
+.adress {
+    /* Style for "132A Bridg" */
+    margin-left: 97px;
+    margin-top: 25px;
+    width: 230px;
+    height: 102px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.informations {
+    width: 520px;
+    height: 140px;
+    float: left;
+}
+
+.information-header {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+    margin-left: 81px;
+}
+
+.some-links {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.first-some-links {
+    float: left
+}
+
+.column {
+    /* Style for "Sales term" */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.footer-link {
+    color: #212121;
+}
+
+.footer-link:hover {
+    opacity: 0.7
+}
+
+.first-column {
+    margin-right: 103px;
+}
+
+.touch {
+    margin-left: 899px;
+    margin-right: 100px;
+    height: 132px;
+    position: relative;
+}
+
+.touch-header {
+    /* Style for "Let’s Stay" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "L, et’s St" */
+    letter-spacing: 1.8px;
+}
+
+.subscribe-text {
+    /* Style for "Suscribe t" */
+    margin-top: 16px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.email {
+    /* Style for "input" */
+    margin-top: 26px;
+    width: 365px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    padding-left: 15px; /* Style for "your email" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.send {
+    position: absolute;
+    left: 333px;
+    top: 245px;
+}
+
+.copyright {
+    margin-top: 75px;
+}
+
+.copyright-text {
+    margin-top: 5px;
+    margin-right: 158px;
+    margin-left: 98px;
+    float: left;
+    /* Style for "© Copyrigh" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+}
+
+.social {
+    float: left;
+    margin-right: 74px;
+}
+
+.privacy-text {
+    margin-right: 97px;
+    /* Style for "Terms & Co" */
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "T, erms &" */
+    letter-spacing: 0.6px;
+}
+
+.footer-privacy-link {
+    color: #6c6c6c;
+}
+
+.footer-privacy-link:hover {
+    opacity: 0.7
+}
